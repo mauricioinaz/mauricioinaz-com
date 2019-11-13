@@ -1,0 +1,15 @@
+.Home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end
+}
+
+.Paragraph {
+  padding-left: 4rem;
+}
+
+.Paragraph h1 {
+  font-size: 7vw;
+  color: #b6c6e2;
+}

@@ -1,0 +1,32 @@
+.Toolbar {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0rem;
+  box-sizing: border-box;
+}
+
+.NavigationItems {
+  display: flex;
+  flex-flow: row;
+  align-items:center;
+}
+
+.NavigationItem {
+  display: flex;
+  padding-right: 2rem;
+}
+
+
+.NavigationItem a {
+  text-decoration: none;
+  color: #b6c6e2;
+}
+
+.NavigationItem a:hover {
+  color: #491bcc;
+}
