@@ -21,10 +21,27 @@
   padding-right: 2rem;
 }
 
+.Tuirer {
+  height: 2em;
+}
+
+.Tuirer img {
+  height: 100%;
+
+  -webkit-transition: all .5s
+}
+
+.Tuirer img:hover {
+  height: 120%;
+  -webkit-filter: brightness(3);
+ filter: brightness(3);
+}
+
 
 .NavigationItem a {
   text-decoration: none;
   color: #b6c6e2;
+  font-size: 1.4em;
 }
 
 .NavigationItem a:hover {
